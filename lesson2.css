@@ -1,0 +1,18 @@
+#like{
+    background-color: chartreuse;
+}
+#dislike{
+    background-color: #db2e07;
+}
+*{
+    font-family: 'Times New Roman';
+}
+body{
+    background-color: #b48cdb;
+}
+marquee,h1{
+    color:#231070;
+}
+h1{
+    font-size: 100px;
+}
