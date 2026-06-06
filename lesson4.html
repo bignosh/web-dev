@@ -33,10 +33,22 @@
                 box-shadow: 0 0 10px rgb(112, 222, 95), 0 0 20px rgb(65, 135, 54);
                 width: 50%;
                 background-color: rgb(22, 22, 48);
-                padding: 15px;
+                padding: 25px;
+                border: 5px;
+                border-style: dashed;
+                margin: 30px;
             }
             #intro{
                 transform: scale(1.1);
+                padding: 10px;
+                border: 5px;
+                margin: 20px;
+                border-style: dotted;
+            }
+            #logo{
+                border: 5px;
+                margin: 30px;
+                padding: 25px;
             }
             #statement ::first-letter{
                 font-size: 150%;
@@ -56,7 +68,7 @@
 
         </style>
     </head>
-    <body>
+    <body id="body">
         
         <center><h1 id="title">Clash Royale</h1></center>
         <center><h5>since its 10 years old now, something needs to be discussed...</h5></center>
@@ -72,10 +84,9 @@
         </header>
         <main>
             <center>
-                <figure>
+                <figure id="logo">
                     <img src="logo cr.webp" width="300px">
-                <figcaption>Clash Royale Logo</figcaption>
-            </figure>
+                </figure>
             <article class="glow" id="intro">
                 <h3>Introduction</h3>
                 <p>
@@ -87,7 +98,7 @@
             <br>
             <br>
             <br>
-            <aside class="glow" id="intro">
+            <aside class="glow" id="aside">
                 <p id="statement">
                     <h2>What constitutes whether card is annoying? Here's a simple formula to decide how balanced a card is</h2>
                     <q>card<sub>balanced in encounters</sub> + meta changes<sub>sufficient?</sub> = balanced</q>
