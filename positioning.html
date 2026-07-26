@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: lightyellow;
+                padding: 65px 30px 30px 30px;
+                min-height: 1800px;
+            }
+            h1, h2 {color: darkorange;}
+            .top-bar{
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: darkorange;
+                color: white;
+                padding: 14px 20px;
+            }
+
+            .list-item{
+                background-color: white;
+                border: 2px solid darkorange;
+                padding: 10px 20px;
+            }
+            .special-note{
+                position: relative;
+                left: 30px;
+                background-color: gold;
+                padding: 10px 20px;
+            }
+            .car-card{
+                position: relative;
+                background-color: white;
+                border: 2px solid darkorange;
+                padding: 15px 25px;
+            }
+            .badge{
+                position: absolute;
+                top: 8px;
+                right: 8px;
+                background-color: forestgreen;
+                color: white;
+                padding: 4px 8px;
+            }
+            .section-label{
+                position: sticky;
+                top: 55px;
+                background-color: darkorange;
+                color: white;
+                padding: 10px 20px;
+                margin: 15px 0 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top-bar">My favourite car - the Dodge Viper</div>
+        <h1>Meet the 'Widow Maker'</h1>
+
+        <h2>Static</h2>
+        <div class="list-item">Engine: 8.4l NA V10</div>
+        <div class="list-item">Power/Torque: 640hp/800Nm</div>
+
+        <h2>Relative</h2>
+        <p>This note shifts right from its normal spot</p>
+        <div class="special-note">Car of the Year 2015</div>
+
+        <h2>Absolute</h2>
+        <p>This note is pinned to the corner of the card</p>
+        <div class="car-card">
+            <p>Dodge Viper - Muscle car, retail price: $150,000</p>
+            <div class="badge">Owned!</div>
+        </div>
+
+        <h2>Sticky</h2>
+        <p>The label locks at the top when you scroll down</p>
+        <div class="section-label">More cars available to purchase</div>
+        <div class="list-item">2007 Volvo 850R - Estate, retail price: $20,000 </div>
+        <div class="list-item">2017 BMW M3- Sports Saloon, retail price: $60,000 </div>
+        <div class="list-item">2008 Mercedes-Benz C63 AMG - Estate, retail price: $120,000 </div>
+        <div class="list-item">2011 Saleen S7 - Retro Supercar, retail price: $500,000 </div>
+        <div class="list-item">2009 Mercedes-Benz McLaren SLR - Grand Tourer, retail price: $650,000 </div>
+        <div class="list-item">2014 W Motors Lykan Hypersport - Hypercar, retail price: $1,100,000 </div>
+        <div class="list-item">2019 Koenigsegg Regera - Megacar, retail price: $2,200,000 </div>
+        <div class="list-item">2023 Lamborghini Essenza SCV12 - Track Toy (not road legal), retail price: $4,000,000 </div>
+        <div class="list-item">2018 Bugatti Bolide - Track Prototype (not road legal), retail price: $6,000,000 </div>
+        <div class="list-item">1998 McLaren F1 GT - Retro Supercar, retail price: $25,000,000 </div>
+    </body>
+</html>
